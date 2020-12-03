@@ -1,4 +1,4 @@
-## USB ALDL Adapter V1.0 <img alt="" align="right" src="https://img.shields.io/badge/ECD-Eagle-informational?style=flat&logo=Autodesk&logoColor=white&color=0696D7" /> <img alt="" align="right" src="https://img.shields.io/badge/Platform-ESP32-informational?style=flat&logo=Arduino&logoColor=white&color=00979D" />
+## USB ALDL Adapter V1.0 <img alt="" align="right" src="https://img.shields.io/badge/ECD-Eagle-informational?style=flat&logo=Autodesk&logoColor=white&color=0696D7" /> 
 
 ### **Project**: ALDL to Bluetooth Adapter using a Mini Computing Board <img alt="" align="right" src="https://img.shields.io/badge/Status-Superseded-informational?style=flat&logoColor=white&color=9B2321" />
 
