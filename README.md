@@ -1,6 +1,6 @@
 ## USB ALDL Adapter V1.0 <img alt="" align="right" src="https://img.shields.io/badge/ECD-Eagle-informational?style=flat&logo=Autodesk&logoColor=white&color=0696D7" />
 
-### **Project**: ALDL to USB Adapter <img alt="" align="right" src="https://img.shields.io/badge/Status-Superseded-informational?style=flat&logoColor=white&color=9B2321" />
+### **Project**: ALDL to USB Adapter <img alt="" align="right" src="https://img.shields.io/badge/Status-Superseded-informational?style=flat&logoColor=white&color=41CD52" />
 
 
 <!-- Repo Cover Image -->
