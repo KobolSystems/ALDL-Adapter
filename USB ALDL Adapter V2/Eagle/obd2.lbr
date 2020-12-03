@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.3.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="OBD2">
+<pad name="P$1" x="4.5" y="9.5" drill="1.5" diameter="2.54"/>
+<pad name="P$4" x="18" y="9.5" drill="1.5" diameter="2.54"/>
+<pad name="P$5" x="22.5" y="9.5" drill="1.5" diameter="2.54"/>
+<pad name="P$9" x="4.5" y="1" drill="1.5" diameter="2.54"/>
+<pad name="P$16" x="36" y="1" drill="1.5" diameter="2.54"/>
+<hole x="31.496" y="1.016" drill="1.5"/>
+<hole x="27" y="1" drill="1.5"/>
+<hole x="22.479" y="1.016" drill="1.5"/>
+<hole x="18" y="1" drill="1.5"/>
+<hole x="13.462" y="1.016" drill="1.5"/>
+<hole x="9" y="1" drill="1.5"/>
+<hole x="36" y="9.5" drill="1.5"/>
+<hole x="31.5" y="9.5" drill="1.5"/>
+<hole x="27" y="9.5" drill="1.5"/>
+<hole x="9" y="9.5" drill="1.5"/>
+<hole x="13.5" y="9.5" drill="1.5"/>
+</package>
+<package name="OBD2-90DEG">
+<pad name="GM-LAN" x="1.671" y="2.769" drill="1" diameter="1.6764"/>
+<pad name="CHA-GND" x="15.171" y="2.769" drill="1" diameter="1.6764"/>
+<pad name="SIG-GND" x="19.671" y="2.769" drill="1" diameter="1.6764"/>
+<pad name="8192-UART" x="1.671" y="5.769" drill="1" diameter="1.6764"/>
+<pad name="12V" x="33.171" y="5.769" drill="1" diameter="1.6764"/>
+<pad name="J1850+" x="6.171" y="2.769" drill="1" diameter="1.6764"/>
+<pad name="MS-CAN-HIGH" x="10.671" y="2.769" drill="1" diameter="1.6764"/>
+<pad name="HS-CAN-HIGH" x="24.171" y="2.769" drill="1" diameter="1.6764"/>
+<pad name="ISO-K" x="28.671" y="2.769" drill="1" diameter="1.6764"/>
+<pad name="P$8" x="33.171" y="2.769" drill="1" diameter="1.6764"/>
+<pad name="J1850-" x="6.171" y="5.769" drill="1" diameter="1.6764"/>
+<pad name="MS-CAN-LOW" x="10.671" y="5.769" drill="1" diameter="1.6764"/>
+<pad name="P$12" x="15.171" y="5.769" drill="1" diameter="1.6764"/>
+<pad name="P$13" x="19.671" y="5.769" drill="1" diameter="1.6764"/>
+<pad name="HS-CAN-LOW" x="24.171" y="5.769" drill="1" diameter="1.6764"/>
+<pad name="ISO-L" x="28.671" y="5.769" drill="1" diameter="1.6764"/>
+<wire x1="0" y1="0" x2="0" y2="6.75" width="0.127" layer="21"/>
+<wire x1="0" y1="6.75" x2="1" y2="7.75" width="0.127" layer="21" curve="-90"/>
+<wire x1="1" y1="7.75" x2="33.5" y2="7.75" width="0.127" layer="21"/>
+<wire x1="33.5" y1="7.75" x2="34.5" y2="6.875" width="0.127" layer="21" curve="-90"/>
+<wire x1="34.5" y1="6.875" x2="34.5" y2="0" width="0.127" layer="21"/>
+<text x="17.125" y="0.875" size="0.6096" layer="21" align="center">EXTENDED J1962 HEADER | 90 DEGREE</text>
+<text x="2.421" y="7.394" size="0.4064" layer="21" rot="R180">UART</text>
+<text x="6.921" y="7.394" size="0.4064" layer="21" rot="R180">J1850 -</text>
+<text x="12.546" y="7.394" size="0.4064" layer="21" rot="R180">MS-CAN-LOW</text>
+<text x="26.046" y="7.394" size="0.4064" layer="21" rot="R180">HS-CAN-LOW</text>
+<text x="29.296" y="7.394" size="0.4064" layer="21" rot="R180">ISO-L</text>
+<text x="33.671" y="7.394" size="0.4064" layer="21" rot="R180">12V</text>
+<text x="2.796" y="4.394" size="0.4064" layer="21" rot="R180">GM-LAN</text>
+<text x="6.921" y="4.394" size="0.4064" layer="21" rot="R180">J1850 +</text>
+<text x="12.546" y="4.394" size="0.4064" layer="21" rot="R180">MS-CAN-HIGH</text>
+<text x="26.046" y="4.394" size="0.4064" layer="21" rot="R180">HS-CAN-HIGH</text>
+<text x="29.421" y="4.394" size="0.4064" layer="21" rot="R180">ISO-K</text>
+<text x="21.421" y="4.394" size="0.4064" layer="21" rot="R180">SIGNAL-GND</text>
+<text x="17.171" y="4.394" size="0.4064" layer="21" rot="R180">CHASSIS-GND</text>
+<wire x1="0" y1="0" x2="34.5" y2="0" width="0.127" layer="21" style="shortdash"/>
+</package>
+</packages>
+<symbols>
+<symbol name="OBD2">
+<wire x1="0" y1="2.5" x2="32.5" y2="2.5" width="0.254" layer="95"/>
+<wire x1="32.5" y1="2.5" x2="32.5" y2="-11.5" width="0.254" layer="95"/>
+<wire x1="32.5" y1="-11.5" x2="0" y2="-11.5" width="0.254" layer="95"/>
+<wire x1="0" y1="-11.5" x2="0" y2="2.5" width="0.254" layer="95"/>
+<pin name="P$1" x="3" y="7.5" length="middle" rot="R270"/>
+<pin name="P$4" x="15" y="7.5" length="middle" direction="pwr" rot="R270"/>
+<pin name="P$5" x="18.5" y="7.5" length="middle" direction="pwr" rot="R270"/>
+<pin name="P$9" x="3" y="-16.5" length="middle" rot="R90"/>
+<pin name="P$16" x="28.5" y="-16.5" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+<symbol name="OBD2-90DEG">
+<wire x1="0" y1="2.5" x2="28.5" y2="2.5" width="0.254" layer="95"/>
+<wire x1="28.5" y1="2.5" x2="28.5" y2="-34" width="0.254" layer="95"/>
+<wire x1="28.5" y1="-34" x2="0" y2="-34" width="0.254" layer="95"/>
+<wire x1="0" y1="-34" x2="0" y2="2.5" width="0.254" layer="95"/>
+<pin name="UART/LS-GM-LAN" x="2" y="7.5" length="middle" rot="R270"/>
+<pin name="CHASSIS-GND" x="12.5" y="7.5" length="middle" direction="pwr" rot="R270"/>
+<pin name="SIGNAL-GND" x="16" y="7.5" length="middle" direction="pwr" rot="R270"/>
+<pin name="8192-UART" x="2" y="-39" length="middle" rot="R90"/>
+<pin name="12V" x="26.5" y="-39" length="middle" direction="pwr" rot="R90"/>
+<pin name="J1850+" x="5.54" y="7.5" length="middle" rot="R270"/>
+<pin name="MS-CAN-HIGH" x="9.08" y="7.5" length="middle" rot="R270"/>
+<pin name="HS-CAN-HIGH" x="19.62" y="7.5" length="middle" rot="R270"/>
+<pin name="ISO-K" x="22.82" y="7.5" length="middle" rot="R270"/>
+<pin name="P$8" x="26.4" y="7.5" length="middle" rot="R270"/>
+<pin name="J1850-" x="5.5" y="-39" length="middle" rot="R90"/>
+<pin name="MS-CAN-LOW" x="9" y="-39" length="middle" rot="R90"/>
+<pin name="P$12" x="12.5" y="-39" length="middle" rot="R90"/>
+<pin name="P$13" x="16" y="-39" length="middle" rot="R90"/>
+<pin name="HS-CAN-LOW" x="19.5" y="-39" length="middle" rot="R90"/>
+<pin name="ISO-2" x="23" y="-39" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="OBD2">
+<gates>
+<gate name="G$1" symbol="OBD2" x="-15.24" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="OBD2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$16" pad="P$16"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OBD2-90DEG">
+<gates>
+<gate name="G$1" symbol="OBD2-90DEG" x="-10.16" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="OBD2-90DEG">
+<connects>
+<connect gate="G$1" pin="12V" pad="12V"/>
+<connect gate="G$1" pin="8192-UART" pad="8192-UART"/>
+<connect gate="G$1" pin="CHASSIS-GND" pad="CHA-GND"/>
+<connect gate="G$1" pin="HS-CAN-HIGH" pad="HS-CAN-HIGH"/>
+<connect gate="G$1" pin="HS-CAN-LOW" pad="HS-CAN-LOW"/>
+<connect gate="G$1" pin="ISO-2" pad="ISO-L"/>
+<connect gate="G$1" pin="ISO-K" pad="ISO-K"/>
+<connect gate="G$1" pin="J1850+" pad="J1850+"/>
+<connect gate="G$1" pin="J1850-" pad="J1850-"/>
+<connect gate="G$1" pin="MS-CAN-HIGH" pad="MS-CAN-HIGH"/>
+<connect gate="G$1" pin="MS-CAN-LOW" pad="MS-CAN-LOW"/>
+<connect gate="G$1" pin="P$12" pad="P$12"/>
+<connect gate="G$1" pin="P$13" pad="P$13"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
+<connect gate="G$1" pin="SIGNAL-GND" pad="SIG-GND"/>
+<connect gate="G$1" pin="UART/LS-GM-LAN" pad="GM-LAN"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
