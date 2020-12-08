@@ -12,7 +12,7 @@
 
 ### Adapter PCB
 <p align="center">
-<img alt="" align="center" src="https://github.com/CrashOverrideProductions/ALDL-Adapter/blob/main/USB%20ALDL%20Adapter%20V2/GM-UART-V2-Top.png?raw=true" />
+<img alt="" align="center" src="https://github.com/CrashOverrideProductions/ALDL-Adapter/blob/main/USB%20ALDL%20Adapter%20V2/GM-UART-V2-Top.png" />
 </p>
 
 
