@@ -8,21 +8,28 @@
 <img alt="" align="center" src="https://github.com/CrashOverrideProductions/GMUart-Bluetooth/blob/main/Images/DLC.jpg?raw=true" />
 </p>
 
+<!-- PCB Image -->
+
+### Adapter PCB
+<p align="center">
+<img alt="" align="center" src="https://github.com/CrashOverrideProductions/ALDL-Adapter/blob/main/USB%20ALDL%20Adapter%20V2/GM-UART-V2-Top.png?raw=true" />
+</p>
+
 
 ### PCB Bill of Materials
-Part  |Value      |Device     	|Package          |Description                          	|Mouser Part 		|
-------|-----------|-------------|-----------------|---------------------------------------------|-----------------------|
-C1   |100nF      |C-EUC0603K 	|C0603K           |MLCC - SMD/SMT 100nF 50V               	|603-CC603ZPY5V9BB104   |   
-C2   |10nF       |C-EUC0603K 	|C0603K           |MLCC - SMD/SMT 10nF 50V X7R 10%        	|603-CC603KRX7R9BB103   |   
-C3   |47pF       |C-EUC0603K 	|C0603K           |MLCC - SMD/SMT 47pF 5% 50V             	|791-MT18N470J500CT     |   
-C4   |47pF       |C-EUC0603K 	|C0603K           |MLCC - SMD/SMT 47pF 5% 50V             	|791-MT18N470J500CT     |   
-D1   |1N4148     |1N4148W-E3-18 |SOD-123	  |Diode 100 Volt 500mA 4ns			|78-1N4148W-E3-18       |                              
-IC1  |FT230XQ    |FT230XQ    	|QFN16            |USB to BASIC UART IC                   	|895-FT230XQ-R          |                            
-R1   |1KR        |R-US_M0805 	|M0805            |Resistor - SMD 1/4watts 1Kohms 1%      	|660-RK73H2ATTD1001F    |   
-R3   |27R        |R-US_R0603 	|R0603            |Resistor - SMD 1/20watt 27ohms 5%      	|71-CRCW020127R0JNED    |   
-R4   |27R        |R-US_R0603	|R0603            |Resistor - SMD 1/20watt 27ohms 5%      	|71-CRCW020127R0JNED    |   
-SV1  |USB-CONN   |MA04-1     	|MA04-1           |PIN HEADER                             	|NOT POPULATED          |  
-U$1  |OBD2       |OBD2       	|OBD2             |OBDII Connector                        	|NOT POPULATED		|     
+Part  |Value      |Device     	|Package          |Description                          	|Mouser Part 	     	|
+------|-----------|-------------|-----------------|-----------------------------------------|-----------------------|
+C1    |100nF      |C-EUC0603K 	|C0603K           |MLCC - SMD/SMT 100nF 50V               	|603-CC603ZPY5V9BB104   |   
+C2    |10nF       |C-EUC0603K 	|C0603K           |MLCC - SMD/SMT 10nF 50V X7R 10%        	|603-CC603KRX7R9BB103   |   
+C3    |47pF       |C-EUC0603K 	|C0603K           |MLCC - SMD/SMT 47pF 5% 50V             	|791-MT18N470J500CT     |   
+C4    |47pF       |C-EUC0603K 	|C0603K           |MLCC - SMD/SMT 47pF 5% 50V             	|791-MT18N470J500CT     |   
+D1    |1N4148     |1N4148W-E3-18|SOD-123	  	  |Diode 100 Volt 500mA 4ns					|78-1N4148W-E3-18       |                              
+IC1   |FT230XQ    |FT230XQ    	|QFN16            |USB to BASIC UART IC                   	|895-FT230XQ-R          |                            
+R1    |1KR        |R-US_M0805 	|M0805            |Resistor - SMD 1/4watts 1Kohms 1%      	|660-RK73H2ATTD1001F    |   
+R3    |27R        |R-US_R0603 	|R0603            |Resistor - SMD 1/20watt 27ohms 5%      	|71-CRCW020127R0JNED    |   
+R4    |27R        |R-US_R0603	|R0603            |Resistor - SMD 1/20watt 27ohms 5%      	|71-CRCW020127R0JNED    |   
+SV1   |USB-CONN   |MA04-1     	|MA04-1           |PIN HEADER                             	|NOT POPULATED          |  
+U$1   |OBD2       |OBD2       	|OBD2             |OBDII Connector                        	|NOT POPULATED		    |     
 
 
 
