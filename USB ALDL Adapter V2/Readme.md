@@ -35,15 +35,11 @@ U$1   |OBD2       |OBD2       	|OBD2             |OBDII Connector               
 
 
 <!-- To Do List -->
-### Project To Do List
-- [ ] More to add as I think of it
-- [ ] List Items Here
-
 ### Repo To Do List
 - [x] Create Readme.md
 - [ ] Update Readme Image to Actual V2
-- [ ] Add Eagle Files
-- [ ] Add .PDF Schematic
+- [x] Add Eagle Files
+- [x] Add .PDF Schematic
 - [ ] Add Board Pics
 
 <!-- Licencing Always at the Bottom -->
